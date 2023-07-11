@@ -10,10 +10,12 @@ public class Rectangle {
 
     }
     public boolean isSquare(){
-        if(length==width){
-            return true;
-        }else{
-            return false;
-        }
+        return length==width;
+        //another way of doing this:
+//        if(length==width){
+//            return true;
+//        }else{
+//            return false;
+//        }
     }
 }
