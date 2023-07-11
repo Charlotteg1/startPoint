@@ -25,4 +25,11 @@ public class Computer {
     public void setPrinterConnected(){
         this.printerConnected = true;
     }
+    public String printMessage(){
+        if(printerConnected){
+            return "The printer is connected";
+        }else{
+            return "The printer is not connected";
+        }
+    }
 }

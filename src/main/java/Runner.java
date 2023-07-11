@@ -46,7 +46,8 @@ public class Runner {
         String currentPrinter = computer.getPrinterConnected();
         System.out.println("Computer currently has a " + currentPrinter + " printer connected.");
 
-        // 5. Write a method to print a message.
+        // 5. Write a method to print a message;
+        System.out.println(computer.printMessage());
         // To test this works *without* a printer too you can comment out the code for question 4
 //        computer.printMessage("Hello World!");
     }
